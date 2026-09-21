@@ -46,7 +46,7 @@
 		"tldts": "^7.4.12"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.5.13"
+		"@biomejs/biome": "2.5.14"
 	},
 	"engines": {
 		"node": ">=22"
