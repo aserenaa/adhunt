@@ -43,7 +43,7 @@
 		"@ghostery/trackerdb": "^1.0.945",
 		"@napi-rs/keyring": "^2.0.0",
 		"playwright-core": "^1.63.0",
-		"tldts": "^7.4.12"
+		"tldts": "^7.4.15"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.13"
