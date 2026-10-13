@@ -167,8 +167,8 @@ importers:
   .:
     dependencies:
       '@ghostery/adblocker':
-        specifier: ^2.18.2
-        version: 2.18.2
+        specifier: ^2.20.1
+        version: 2.20.1
       '@ghostery/trackerdb':
         specifier: ^1.0.945
         version: 1.0.945
@@ -248,14 +248,20 @@ packages:
   '@ghostery/adblocker-content@2.18.2':
     resolution: {integrity: sha512-TOe/b4KOBFEc9OjLG+wvgamGcSTIPSDBAL5YSa8lzjBsoSl8IDnfOjeJDldlLacsC/JEUMLkZIDDNknEolJVqg==}
 
+  '@ghostery/adblocker-content@2.20.1':
+    resolution: {integrity: sha512-1vBDzEzoi4ZE9xjL3akAn0PiIA2KIeQ1K0JCpRIjPPWy8GoqN1saV2Md2jRSZPuXv9iENMKRPn1TetEE0MbUXw==}
+
   '@ghostery/adblocker-extended-selectors@2.18.2':
     resolution: {integrity: sha512-doKNShBk3+czQL08UkrysHkCPeG/kNPlXvz3DH7SXxD9Y78ovWkEAhjeR+upoan3fomJJuK3dD+IrlofnjckYw==}
+
+  '@ghostery/adblocker-extended-selectors@2.20.1':
+    resolution: {integrity: sha512-PCnELdIoylSQ8hsRXQUkiSnch6WwHTNYxu8iAthmbOD+44WoXnmjR+Zfgdut3Lh3xUZmvv1uojslNIhYrJX9rA==}
 
   '@ghostery/adblocker@2.17.3':
     resolution: {integrity: sha512-E2jcCtlkdJFm0gUH1GL+99CgAGudlOpMfpWJqKUL9lfPFbEuw//xypbyLUdTJcz31eBJaHq1ql163dIJ00/m1A==}
 
-  '@ghostery/adblocker@2.18.2':
-    resolution: {integrity: sha512-x6zEkf1dHSN0t4ExLmuN6nIgH0oAi6laoKe5yGsiIB4jkEvutea1PJgxgRUIjWfNbDRmkf4GjUtuqQFZgvQG1w==}
+  '@ghostery/adblocker@2.20.1':
+    resolution: {integrity: sha512-1ghCrMnWRf/CWQ5PMw7ZxL4W0U390gmko8kPXhwm7zi+4GDOR49JlHVvmCke90E2hCpBIoNdS5jtNlIKalp2Ww==}
 
   '@ghostery/trackerdb@1.0.945':
     resolution: {integrity: sha512-vxB/d4UJJsUNS1ja4KXdqStL7UbzoL0JotdTCWv2nrXMz+RFj1f3dF4ziuCKOxYD5tsLoix+hkvFQiqCn+7nyw==}
@@ -429,7 +435,13 @@ snapshots:
     dependencies:
       '@ghostery/adblocker-extended-selectors': 2.18.2
 
+  '@ghostery/adblocker-content@2.20.1':
+    dependencies:
+      '@ghostery/adblocker-extended-selectors': 2.20.1
+
   '@ghostery/adblocker-extended-selectors@2.18.2': {}
+
+  '@ghostery/adblocker-extended-selectors@2.20.1': {}
 
   '@ghostery/adblocker@2.17.3':
     dependencies:
@@ -441,10 +453,10 @@ snapshots:
       '@remusao/smaz': 2.2.0
       tldts-experimental: 7.4.12
 
-  '@ghostery/adblocker@2.18.2':
+  '@ghostery/adblocker@2.20.1':
     dependencies:
-      '@ghostery/adblocker-content': 2.18.2
-      '@ghostery/adblocker-extended-selectors': 2.18.2
+      '@ghostery/adblocker-content': 2.20.1
+      '@ghostery/adblocker-extended-selectors': 2.20.1
       '@ghostery/url-parser': 1.3.1
       '@remusao/guess-url-type': 2.1.0
       '@remusao/small': 2.1.0
