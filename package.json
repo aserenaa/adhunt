@@ -39,7 +39,7 @@
 		"format": "biome check --write ."
 	},
 	"dependencies": {
-		"@ghostery/adblocker": "^2.18.2",
+		"@ghostery/adblocker": "^2.20.1",
 		"@ghostery/trackerdb": "^1.0.945",
 		"@napi-rs/keyring": "^2.0.0",
 		"playwright-core": "^1.63.0",
