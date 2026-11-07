@@ -170,8 +170,8 @@ importers:
         specifier: ^2.18.2
         version: 2.18.2
       '@ghostery/trackerdb':
-        specifier: ^1.0.945
-        version: 1.0.945
+        specifier: ^1.0.952
+        version: 1.0.952
       '@napi-rs/keyring':
         specifier: ^2.0.0
         version: 2.0.0
@@ -257,8 +257,8 @@ packages:
   '@ghostery/adblocker@2.18.2':
     resolution: {integrity: sha512-x6zEkf1dHSN0t4ExLmuN6nIgH0oAi6laoKe5yGsiIB4jkEvutea1PJgxgRUIjWfNbDRmkf4GjUtuqQFZgvQG1w==}
 
-  '@ghostery/trackerdb@1.0.945':
-    resolution: {integrity: sha512-vxB/d4UJJsUNS1ja4KXdqStL7UbzoL0JotdTCWv2nrXMz+RFj1f3dF4ziuCKOxYD5tsLoix+hkvFQiqCn+7nyw==}
+  '@ghostery/trackerdb@1.0.952':
+    resolution: {integrity: sha512-dfo5+AmjDlrj6dI6NyL/pOBQJWjGNSrwoCGXLDB48HvM/4s9nMiJRCN9S+TvlOboNR4UgERLygeqCHOpEUAKGQ==}
     engines: {node: '>=20.0'}
     hasBin: true
 
@@ -451,7 +451,7 @@ snapshots:
       '@remusao/smaz': 2.2.0
       tldts-experimental: 7.4.12
 
-  '@ghostery/trackerdb@1.0.945':
+  '@ghostery/trackerdb@1.0.952':
     dependencies:
       '@ghostery/adblocker': 2.17.3
       enolib: 0.8.2
