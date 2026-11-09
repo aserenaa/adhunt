@@ -170,8 +170,8 @@ importers:
         specifier: ^2.20.3
         version: 2.20.3
       '@ghostery/trackerdb':
-        specifier: ^1.0.952
-        version: 1.0.952
+        specifier: ^1.0.968
+        version: 1.0.968
       '@napi-rs/keyring':
         specifier: ^2.0.0
         version: 2.0.0
@@ -245,14 +245,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@ghostery/adblocker-content@2.18.2':
-    resolution: {integrity: sha512-TOe/b4KOBFEc9OjLG+wvgamGcSTIPSDBAL5YSa8lzjBsoSl8IDnfOjeJDldlLacsC/JEUMLkZIDDNknEolJVqg==}
-
   '@ghostery/adblocker-content@2.20.3':
     resolution: {integrity: sha512-tuV4T5wPbfVdcY6dnM1dfaXSazpStx7ZI54bd2l9r93yPZfZoVsHR1Uxf/A8ETBMXJPQ92JMDQzmV8hOgpyq+w==}
-
-  '@ghostery/adblocker-extended-selectors@2.18.2':
-    resolution: {integrity: sha512-doKNShBk3+czQL08UkrysHkCPeG/kNPlXvz3DH7SXxD9Y78ovWkEAhjeR+upoan3fomJJuK3dD+IrlofnjckYw==}
 
   '@ghostery/adblocker-extended-selectors@2.20.3':
     resolution: {integrity: sha512-cwloe8GXCoiLor685fOCsx3PyDFvsVnYdCO/MMAyZ4Dr5q8cgSHijqqYSU2fWgoWfz1Fhfepj7mGbQnrvUR37w==}
@@ -263,8 +257,8 @@ packages:
   '@ghostery/adblocker@2.20.3':
     resolution: {integrity: sha512-Wxv+RiqfD+xYVij9gkudU6nDb+eqbfu2roDZa0rtqVw2qIm0ICxEnkrsgUyfZw7+L+3PfI2PszHZQeoCkR1CuA==}
 
-  '@ghostery/trackerdb@1.0.952':
-    resolution: {integrity: sha512-dfo5+AmjDlrj6dI6NyL/pOBQJWjGNSrwoCGXLDB48HvM/4s9nMiJRCN9S+TvlOboNR4UgERLygeqCHOpEUAKGQ==}
+  '@ghostery/trackerdb@1.0.968':
+    resolution: {integrity: sha512-UYus/++WQMEGZ1NYP8TskmxoQ7dBnLAdxktCGcJcwmEj4jqz4iDkhQIkykcMFdGZKq+YcY1zbZZolOch+V4zkg==}
     engines: {node: '>=20.0'}
     hasBin: true
 
@@ -431,22 +425,16 @@ snapshots:
   '@biomejs/cli-win32-x64@2.5.13':
     optional: true
 
-  '@ghostery/adblocker-content@2.18.2':
-    dependencies:
-      '@ghostery/adblocker-extended-selectors': 2.18.2
-
   '@ghostery/adblocker-content@2.20.3':
     dependencies:
       '@ghostery/adblocker-extended-selectors': 2.20.3
-
-  '@ghostery/adblocker-extended-selectors@2.18.2': {}
 
   '@ghostery/adblocker-extended-selectors@2.20.3': {}
 
   '@ghostery/adblocker@2.17.3':
     dependencies:
-      '@ghostery/adblocker-content': 2.18.2
-      '@ghostery/adblocker-extended-selectors': 2.18.2
+      '@ghostery/adblocker-content': 2.20.3
+      '@ghostery/adblocker-extended-selectors': 2.20.3
       '@ghostery/url-parser': 1.3.1
       '@remusao/guess-url-type': 2.1.0
       '@remusao/small': 2.1.0
@@ -463,7 +451,7 @@ snapshots:
       '@remusao/smaz': 2.2.0
       tldts-experimental: 7.4.12
 
-  '@ghostery/trackerdb@1.0.952':
+  '@ghostery/trackerdb@1.0.968':
     dependencies:
       '@ghostery/adblocker': 2.17.3
       enolib: 0.8.2
