@@ -41,7 +41,7 @@
 	"dependencies": {
 		"@ghostery/adblocker": "^2.20.3",
 		"@ghostery/trackerdb": "^1.0.952",
-		"@napi-rs/keyring": "^2.0.0",
+		"@napi-rs/keyring": "^2.1.2",
 		"playwright-core": "^1.63.0",
 		"tldts": "^7.4.18"
 	},
